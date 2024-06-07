@@ -80,6 +80,10 @@ section {
     padding: 10rem 9% 2rem;
 }
 
+p a{
+    color: var(--main-color);
+}
+
 .home {
     display: flex;
     align-items: center;
