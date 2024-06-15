@@ -258,29 +258,32 @@
     <section id="contact" class="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="#">
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="b9336768-f14f-4a41-9272-f31dcca9e3e9">
+            
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" placeholder="Full Name" name="name" required>
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input type="email" placeholder="Email Address" required>
+                    <input type="email" placeholder="Email Address" name="email" required>
                     <span class="focus"></span>
                 </div>
             </div>
             <div class="input-box">
                 <div class="input-field">
-                    <input type="number" placeholder="Phone" required>
+                    <input type="tel" placeholder="Phone" name="phone" required>
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input type="text" placeholder="Email Subject" required>
+                    <input type="text" placeholder="Subject" name="subject" required>
                     <span class="focus"></span>
                 </div>
             </div>
             <div class="textarea-field">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <span class="focus"></span>
             </div>
             <div class="btn-box btns">
